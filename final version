@@ -1,0 +1,5 @@
+id = input("Enter your 9 digit ID ") # Luhn algorithm to check the input for typing error 
+ed_1, ed_2, ed_3, ed_4 = 2 * int(id[1]), 2 * int(id[3]), 2 * int(id[5]), 2 * int(id[7])
+ed = (str(ed_1) + str(ed_2) + str(ed_3) + str(ed_4)).zfill(8)
+sum = int(ed[0]) + int(ed[1]) + int(ed[2]) + int(ed[3]) + int(ed[4]) + int(ed[5]) + int(ed[6]) + int(ed[7]) + int(id[0]) + int(id[2]) + int(id[4]) + int(id[6]) + int(id[8])
+print(sum % 10 == 0)
