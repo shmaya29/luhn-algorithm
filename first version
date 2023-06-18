@@ -1,0 +1,48 @@
+a = input()
+print(a) #
+b = int(a[0])
+c = int(a[1])
+d = int(a[2])
+e = int(a[3])
+f = int(a[4])
+g = int(a[5])
+h = int(a[6])
+i = int(a[7])
+j = int(a[8])
+print(b,c,d,e,f,g,h,i,j,) #
+c = c * 2 
+e = e * 2 
+g = g * 2 
+i = i * 2
+print(c, e, g, i) #
+c = str(c)
+c = c.zfill(2)
+k = c[0]
+c = c[1]
+print(k, c) #
+k = int(k)
+c = int(c)
+e = str(e)
+e = e.zfill(2)
+l = e[0]
+e = e[1]
+print(l, e) #
+l = int(l)
+e = int(e)
+g = str(g)
+g = g.zfill(2)
+m = g[0]
+g = g[1]
+print(m, g) #
+m = int(m)
+g = int(g)
+i = str(i)
+i = i.zfill(2)
+n = i[0]
+i = i[1]
+print(n, i) #
+n = int(n)
+i = int(i)
+A = (b + c + d + e + f + g + h + i + j + k + l + m + n)
+print(A) #
+print(A == 10 or A == 20 or A == 30 or A == 40 or A == 50 or A == 60 or A == 70 or A == 80)
